@@ -375,7 +375,8 @@ sudo pacman -S fcitx5-material-color # 输入法主题
 2. 此外，我们还需要设置环境变量。通过 `vim` 创建并编辑文件 `~/.config/environment.d/im.conf`：
 
 ```bash
-vim ~/.config/environment.d/im.conf
+mkdir ~/.config/environment.d/ # 创建文件夹
+vim ~/.config/environment.d/im.conf # 新建文件并编辑
 ```
 
 3. 在文件中加入以下内容并保存退出：
